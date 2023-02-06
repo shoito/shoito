@@ -1,0 +1,13 @@
+{
+  "name": "hosting",
+  "version": "0.1.0",
+  "private": true,
+  "license": "UNLICENSED",
+  "scripts": {
+    "dev": "firebase serve",
+    "deploy": "firebase deploy --only hosting --project shoito"
+  },
+  "dependencies": {
+    "firebase": "^9.17.1"
+  }
+}
